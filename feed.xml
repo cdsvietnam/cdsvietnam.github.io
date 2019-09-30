@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile Software Outsourcing Company in Viet Nam</title>
+    <description>CDS Viet Nam JSC is an Agile Software Outsourcing Company in Viet Nam</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 30 Sep 2019 10:59:45 +0700</pubDate>
+    <lastBuildDate>Mon, 30 Sep 2019 10:59:45 +0700</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Why Is Laravel Framework Winning over CodeIgniter?</title>
+        <description>&lt;p&gt;Nowadays, we’ve so many options to build quick sites. But when it comes to building something big and highly customizable, PHP is the top contender. There is a big history behind this 3 letter word, PHP. The acronym that stands for Hypertext Preprocessor now (earlier known as Personal Home Page), has become quite popular and widespread since it was introduced in 1994 by Rasmus Lerdorf.&lt;/p&gt;
+
+&lt;p&gt;PHP developers have their own favorites, many vouch for the simplicity of oldies like CodeIgniter, Zend Framework, CakePHP, Symfony, Yii, while some swear for new kids like Silex, Slim, Lithium, and Laravel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;However, the ultimate war continued between just two titans, CodeIgniter, and Laravel.&lt;/strong&gt; Which one has better features or performance or stability, these are only a few of the many questions that pop up these days, let’s find out how they fare against each other.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why Use CodeIgniter?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A high-performance framework with a small footprint.&lt;/strong&gt; It’s simple and quick to set-up, all you have to do is to download a preferred version from CodeIgniter website and you’re good to go.&lt;/p&gt;
+
+&lt;p&gt;Being one of the older and popular frameworks of PHP, it has a large community of active users using it for projects of all scale, from smallest to largest ones. Moreover, it has a very clear and well-structured documentation available, with all concepts of CodeIgniter explained clearly and in detail with examples.&lt;/p&gt;
+
+&lt;p&gt;The thing that works for CodeIgniter is its stability, it has been tested by developers in large number and therefore, chances of bugs or any bigger stability issue is quite less. Another cool factor about it is the presence of an inbuilt templating engine, which is really simple to use and is based on mustache-like templating language, easy to learn even for new developers.&lt;/p&gt;
+
+&lt;p&gt;But the cherry on the top is its ease to use nature, you don’t have to a master of MVC architecture to get started with CodeIgniter. It’s a boon for performance and efficiency too as it offers output caching and therefore loading time can be reduced.&lt;/p&gt;
+
+&lt;p&gt;It’s one of the most popular frameworks and therefore, there’s a big community of users always available to seek and provide support. However, it’s a very old framework, has been released at the time of PHP 4. Since then, many new features were added to PHP, but CodeIgniter continued to stick to its basics, which is dampener. It does not offer modular separation too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why Laravel?&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 15 May 2019 00:00:00 +0700</pubDate>
+        <link>/blog/codeigniter/laravel/2019/05/15/codeigniter-vs-laravel.html</link>
+        <guid isPermaLink="true">/blog/codeigniter/laravel/2019/05/15/codeigniter-vs-laravel.html</guid>
+        
+        <category>Android</category>
+        
+        <category>iOS</category>
+        
+        <category>Codeigniter</category>
+        
+        <category>Firebase</category>
+        
+        <category>APNS</category>
+        
+        <category>Marketing</category>
+        
+        
+        <category>Blog</category>
+        
+        <category>Codeigniter</category>
+        
+        <category>Laravel</category>
+        
+      </item>
+    
+      <item>
+        <title>SOLID Principles every Developer Should Know</title>
+        <description>&lt;p&gt;This enables developers to combine data with the same purpose/functionality in one class to deal with the sole purpose there, regardless of the entire application.&lt;/p&gt;
+
+&lt;p&gt;But, this Object-oriented programming doesn’t prevent confusing or unmaintainable programs.
+As such, five guidelines were developed by Robert C. Martin. These five guidelines/principles made it easy for developers to create readable and maintainable programs.
+These five principles were called the S.O.L.I.D principles (the acronym was derived by Michael Feathers).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;S: Single Responsibility Principle&lt;/li&gt;
+  &lt;li&gt;O: Open-Closed Principle&lt;/li&gt;
+  &lt;li&gt;L: Liskov Substitution Principle&lt;/li&gt;
+  &lt;li&gt;I: Interface Segregation Principle&lt;/li&gt;
+  &lt;li&gt;D: Dependency Inversion Principle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will discuss them in detail below.
+Note: Most of the examples in this article, may not suffice as/for the real thing or not applicable in real world applications. It all depends on your own design and use case. The most important thing is to understand and know how to apply/follow the principles.
+Tip: Use tools like Bit to bring SOLID to practice. It helps you organize, discover and reuse components to compose new applications. Components can be discovered and shared across projects, so you can build faster. Try it.&lt;/p&gt;
+
+&lt;p&gt;Single Responsibility Principle
+“…You had one job” — Loki to Skurge in Thor: Ragnarok
+A class should have only one job.
+A class should be responsible for only one thing. If a class has more than one responsibility, it becomes coupled. A change to one responsibility results to modification of the other responsibility.
+Note: This principle applies not only to classes, but also to software components and microservices.
+For example, consider this design:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Animal {
+    constructor(name: string){ }
+    getAnimalName() { }
+    saveAnimal(a: Animal) { }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The Animal class violates the SRP.
+How does it violate SRP?
+SRP states that classes should have one responsibility, here, we can draw out two responsibilities: animal database management and animal properties management. The constructor and getAnimalName manage the Animal properties while the saveAnimal manages the Animal storage on a database.
+How will this design cause issues in the future?
+If the application changes in a way that it affects database management functions. The classes that make use of Animal properties will have to be touched and recompiled to compensate for the new changes.
+You see this system smells of rigidity, it’s like a domino effect, touch one card it affects all other cards in line.
+To make this conform to SRP, we create another class that will handle the sole responsibility of storing an animal to a database:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Animal {
+    constructor(name: string){ }
+    getAnimalName() { }
+}
+class AnimalDB {
+    getAnimal(a: Animal) { }
+    saveAnimal(a: Animal) { }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;When designing our classes, we should aim to put related features together, so whenever they tend to change they change for the same reason. And we should try to separate features if they will change for different reasons. - Steve Fenton
+With the proper application of these, our application becomes highly cohesive.
+Open-Closed Principle
+Software entities(Classes, modules, functions) should be open for extension, not modification.
+Let’s continue with our Animal class.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Animal {
+    constructor(name: string){ }
+    getAnimalName() { }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We want to iterate through a list of animals and make their sounds.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//...
+const animals: Array&amp;lt;Animal&amp;gt; = [
+    new Animal('lion'),
+    new Animal('mouse')
+];
+function AnimalSound(a: Array&amp;lt;Animal&amp;gt;) {
+    for(int i = 0; i &amp;lt;= a.length; i++) {
+        if(a[i].name == 'lion')
+            log('roar');
+        if(a[i].name == 'mouse')
+            log('squeak');
+    }
+}
+AnimalSound(animals);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The function AnimalSound does not conform to the open-closed principle because it cannot be closed against new kinds of animals.
+If we add a new animal, Snake:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//...
+const animals: Array&amp;lt;Animal&amp;gt; = [
+    new Animal('lion'),
+    new Animal('mouse'),
+    new Animal('snake')
+]
+//...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We have to modify the AnimalSound function:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//...
+function AnimalSound(a: Array&amp;lt;Animal&amp;gt;) {
+    for(int i = 0; i &amp;lt;= a.length; i++) {
+        if(a[i].name == 'lion')
+            log('roar');
+        if(a[i].name == 'mouse')
+            log('squeak');
+        if(a[i].name == 'snake')
+            log('hiss');
+    }
+}
+AnimalSound(animals);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You see, for every new animal, a new logic is added to the AnimalSound function. This is quite a simple example. When your application grows and becomes complex, you will see that the if statement would be repeated over and over again in the AnimalSound function each time a new animal is added, all over the application.
+How do we make it (the AnimalSound) conform to OCP?&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Animal {
+        makeSound();
+        //...
+}
+class Lion extends Animal {
+    makeSound() {
+        return 'roar';
+    }
+}
+class Squirrel extends Animal {
+    makeSound() {
+        return 'squeak';
+    }
+}
+class Snake extends Animal {
+    makeSound() {
+        return 'hiss';
+    }
+}
+//...
+function AnimalSound(a: Array&amp;lt;Animal&amp;gt;) {
+    for(int i = 0; i &amp;lt;= a.length; i++) {
+        log(a[i].makeSound());
+    }
+}
+AnimalSound(animals);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Animal now has a virtual method makeSound. We have each animal extend the Animal class and implement the virtual makeSound method.
+Every animal adds its own implementation on how it makes a sound in the makeSound. The AnimalSound iterates through the array of animal and just calls its makeSound method.
+Now, if we add a new animal, AnimalSound doesn’t need to change. All we need to do is add the new animal to the animal array.
+AnimalSound now conforms to the OCP principle.
+Another example:
+Let’s imagine you have a store, and you give a discount of 20% to your favorite customers using this class:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Discount {
+    giveDiscount() {
+        return this.price * 0.2
+    }
+}
+When you decide to offer double the 20% discount to VIP customers. You may modify the class like this:
+class Discount {
+    giveDiscount() {
+        if(this.customer == 'fav') {
+            return this.price * 0.2;
+        }
+        if(this.customer == 'vip') {
+            return this.price * 0.4;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;No, this fails the OCP principle. OCP forbids it. If we want to give a new percent discount maybe, to a diff. type of customers, you will see that a new logic will be added.
+To make it follow the OCP principle, we will add a new class that will extend the Discount. In this new class, we would implement its new behavior:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class VIPDiscount: Discount {
+    getDiscount() {
+        return super.getDiscount() * 2;
+    }
+}
+If you decide 80% discount to super VIP customers, it should be like this:
+class SuperVIPDiscount: VIPDiscount {
+    getDiscount() {
+        return super.getDiscount() * 2;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You see, extension without modification.
+Liskov Substitution Principle
+A sub-class must be substitutable for its super-class
+The aim of this principle is to ascertain that a sub-class can assume the place of its super-class without errors. If the code finds itself checking the type of class then, it must have violated this principle.
+Let’s use our Animal example.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//...
+function AnimalLegCount(a: Array&amp;lt;Animal&amp;gt;) {
+    for(int i = 0; i &amp;lt;= a.length; i++) {
+        if(typeof a[i] == Lion)
+            log(LionLegCount(a[i]));
+        if(typeof a[i] == Mouse)
+            log(MouseLegCount(a[i]));
+        if(typeof a[i] == Snake)
+            log(SnakeLegCount(a[i]));
+    }
+}
+AnimalLegCount(animals);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This violates the LSP principle, (and also the OCP principle). It must know of every Animal type and call the associated leg-counting function.
+With every new creation of an animal, the function must modify to accept the new animal.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//...
+class Pigeon extends Animal {
+        
+}
+const animals[]: Array&amp;lt;Animal&amp;gt; = [
+    //...,
+    new Pigeon();
+]
+function AnimalLegCount(a: Array&amp;lt;Animal&amp;gt;) {
+    for(int i = 0; i &amp;lt;= a.length; i++) {
+        if(typeof a[i] == Lion)
+            log(LionLegCount(a[i]));
+        if(typeof a[i] == Mouse)
+            log(MouseLegCount(a[i]));
+         if(typeof a[i] == Snake)
+            log(SnakeLegCount(a[i]));
+        if(typeof a[i] == Pigeon)
+            log(PigeonLegCount(a[i]));
+    }
+}
+AnimalLegCount(animals);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;To make this function follow the LSP principle, we will follow this LSP requirements postulated by Steve Fenton:
+If the super-class (Animal) has a method that accepts a super-class type (Animal) parameter. Its sub-class(Pigeon) should accept as argument a super-class type (Animal type) or sub-class type(Pigeon type).
+If the super-class returns a super-class type (Animal). Its sub-class should return a super-class type (Animal type) or sub-class type(Pigeon).
+Now, we can re-implement AnimalLegCount function:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function AnimalLegCount(a: Array&amp;lt;Animal&amp;gt;) {
+    for(let i = 0; i &amp;lt;= a.length; i++) {
+        a[i].LegCount();
+    }
+}
+AnimalLegCount(animals);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The AnimalLegCount function cares less the type of Animal passed, it just calls the LegCount method. All it knows is that the parameter must be of an Animal type, either the Animal class or its sub-class.
+The Animal class now have to implement/define a LegCount method:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Animal {
+    //...
+    LegCount();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;And its sub-classes have to implement the LegCount method:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//...
+class Lion extends Animal{
+    //...
+    LegCount() {
+        //...
+    }
+}
+//...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;When it’s passed to the AnimalLegCount function, it returns the number of legs a lion has.
+You see, the AnimalLegCount doesn’t need to know the type of Animal to return its leg count, it just calls the LegCount method of the Animal type because by contract a sub-class of Animal class must implement the LegCount function.
+Interface Segregation Principle
+Make fine grained interfaces that are client specific
+Clients should not be forced to depend upon interfaces that they do not use.
+This principle deals with the disadvantages of implementing big interfaces.
+Let’s look at the below IShape interface:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface IShape {
+    drawCircle();
+    drawSquare();
+    drawRectangle();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This interface draws squares, circles, rectangles. class Circle, Square or Rectangle implementing the IShape interface must define the methods drawCircle(), drawSquare(),drawRectangle().&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Circle implements IShape {
+    drawCircle(){
+        //...
+    }
+    drawSquare(){
+        //...
+    }
+    drawRectangle(){
+        //...
+    }    
+}
+class Square implements IShape {
+    drawCircle(){
+        //...
+    }
+    drawSquare(){
+        //...
+    }
+    drawRectangle(){
+        //...
+    }    
+}
+class Rectangle implements IShape {
+    drawCircle(){
+        //...
+    }
+    drawSquare(){
+        //...
+    }
+    drawRectangle(){
+        //...
+    }    
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;It’s quite funny looking at the code above. class Rectangle implements methods (drawCircle and drawSquare) it has no use of, likewise Square implementing drawCircle, and drawRectangle, and class Circle (drawSquare, drawSquare).
+If we add another method to the IShape interface, like drawTriangle(),&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface IShape {
+    drawCircle();
+    drawSquare();
+    drawRectangle();
+    drawTriangle();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;the classes must implement the new method or error will be thrown.
+We see that it is impossible to implement a shape that can draw a circle but not a rectangle or a square or a triangle. We can just implement the methods to throw an error that shows the operation cannot be performed.
+ISP frowns against the design of this IShape interface. clients (here Rectangle, Circle, and Square) should not be forced to depend on methods that they do not need or use. Also, ISP states that interfaces should perform only one job (just like the SRP principle) any extra grouping of behavior should be abstracted away to another interface.
+Here, our IShape interface performs actions that should be handled independently by other interfaces.
+To make our IShape interface conform to the ISP principle, we segregate the actions to different interfaces:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface IShape {
+    draw();
+}
+interface ICircle {
+    drawCircle();
+}
+interface ISquare {
+    drawSquare();
+}
+interface IRectangle {
+    drawRectangle();
+}
+interface ITriangle {
+    drawTriangle();
+}
+class Circle implements ICircle {
+    drawCircle() {
+        //...
+    }
+}
+class Square implements ISquare {
+    drawSquare() {
+        //...
+    }
+}
+class Rectangle implements IRectangle {
+    drawRectangle() {
+        //...
+    }    
+}
+class Triangle implements ITriangle {
+    drawTriangle() {
+        //...
+    }
+}
+class CustomShape implements IShape {
+   draw(){
+      //...
+   }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The ICircle interface handles only the drawing of circles, IShape handles drawing of any shape :), ISquare handles the drawing of only squares and IRectangle handles drawing of rectangles.
+OR
+Classes (Circle, Rectangle, Square, Triangle, etc) can just inherit from the IShape interface and implement their own draw behavior.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Circle implements IShape {
+    draw(){
+        //...
+    }
+}
+
+class Triangle implements IShape {
+    draw(){
+        //...
+    }
+}
+
+class Square implements IShape {
+    draw(){
+        //...
+    }
+}
+
+class Rectangle implements IShape {
+    draw(){
+        //...
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We can then use the I -interfaces to create Shape specifics like Semi Circle, Right-Angled Triangle, Equilateral Triangle, Blunt-Edged Rectangle, etc.
+Dependency Inversion Principle
+Dependency should be on abstractions not concretions
+A. High-level modules should not depend upon low-level modules. Both should depend upon abstractions.
+B. Abstractions should not depend on details. Details should depend upon abstractions.
+There comes a point in software development where our app will be largely composed of modules. When this happens, we have to clear things up by using dependency injection. High-level components depending on low-level components to function.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class XMLHttpService extends XMLHttpRequestService {}
+class Http {
+    constructor(private xmlhttpService: XMLHttpService) { }
+    get(url: string , options: any) {
+        this.xmlhttpService.request(url,'GET');
+    }
+    post() {
+        this.xmlhttpService.request(url,'POST');
+    }
+    //...
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Here, Http is the high-level component whereas HttpService is the low-level component. This design violates DIP A: High-level modules should not depend on low-level level modules. It should depend upon its abstraction.
+Ths Http class is forced to depend upon the XMLHttpService class. If we were to change to change the Http connection service, maybe we want to connect to the internet through Nodejs or even Mock the http service. We will painstakingly have to move through all the instances of Http to edit the code and this violates the OCP principle.
+The Http class should care less the type of Http service you are using. We make a Connection interface:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface Connection {
+    request(url: string, opts:any);
+}
+The Connection interface has a request method. With this, we pass in an argument of type Connection to our Http class:
+class Http {
+    constructor(private httpConnection: Connection) { }
+    get(url: string , options: any) {
+        this.httpConnection.request(url,'GET');
+    }
+    post() {
+        this.httpConnection.request(url,'POST');
+    }
+    //...
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;So now, no matter the type of Http connection service passed to Http it can easily connect to a network without bothering to know the type of network connection.
+We can now re-implement our XMLHttpService class to implement the Connection interface:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class XMLHttpService implements Connection {
+    const xhr = new XMLHttpRequest();
+    //...
+    request(url: string, opts:any) {
+        xhr.open();
+        xhr.send();
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We can create many Http Connection types and pass it to our Http class without any fuss about errors.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class NodeHttpService implements Connection {
+    request(url: string, opts:any) {
+        //...
+    }
+}
+class MockHttpService implements Connection {
+    request(url: string, opts:any) {
+        //...
+    }    
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now, we can see that both high-level modules and low-level modules depend on abstractions. Http class(high level module) depends on the Connection interface(abstraction) and the Http service types(low level modules) in turn, depends on the Connection interface(abstraction).
+Also, this DIP will force us not to violate the Liskov Substitution Principle: The Connection types Node-XML-MockHttpService are substitutable for their parent type Connection.
+Conclusion
+We covered the five principles every software developer must adhere to here. It might be daunting at first to conform to all these principles, but with steady practice and adherence, it will become a part of us and will greatly have a huge impact on the maintenance of our applications.
+If you have any question regarding this or anything I should add, correct or remove, feel free to comment below and I’d love to talk!&lt;/p&gt;
+
+&lt;p&gt;Source:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com&quot;&gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 12 Jan 2018 00:00:00 +0700</pubDate>
+        <link>/solid/design%20pattern/2018/01/12/solid.html</link>
+        <guid isPermaLink="true">/solid/design%20pattern/2018/01/12/solid.html</guid>
+        
+        
+        <category>Solid</category>
+        
+        <category>Design Pattern</category>
+        
+      </item>
+    
+      <item>
+        <title>SQLite vs MySQL vs PostgreSQL</title>
+        <description>&lt;p&gt;Often time you might be confused with terms related with SQL, SQLite, MySQL or PostgreSQL.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Here is the article I found online dealing with the comparison between these different database systems. In the end, I put all the key points in a table to see the whole picture of the creatures.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Relational databases have been in use for a long time. They became popular thanks to management systems that implement the relational model extremely well, which has proven to be a great way to work with data [especially for mission-critical applications].
+We are going to try to understand the core differences of some of the most commonly used and popular relational database management systems (RDBMS). We will explore their fundamental differences in terms of features and functionality, how they work, and when one excels over the other in order to help developers with choosing a RDBMS.
+Glossary&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Database Management Systems
+Relational Database Management Systems
+Relations And Data Types
+Popular And Important Relational Databases&lt;/li&gt;
+  &lt;li&gt;SQLite
+SQLite’s Supported Data Types
+Advantages of SQLite
+Disadvantages of SQLite
+When To Use SQLite
+When Not To Use SQLite&lt;/li&gt;
+  &lt;li&gt;MySQL
+MySQL’s Supported Data Types
+Advantages of MySQL
+Disadvantages of MySQL
+When To Use MySQL
+When Not To Use MySQL&lt;/li&gt;
+  &lt;li&gt;PostgreSQL
+PostgreSQL’s Supported Data Types
+Advantages of PostgreSQL
+Disadvantages of PostgreSQL
+When To Use PostgreSQL
+When Not To Use PostgreSQL
+Database Management Systems
+Databases are logically modelled storage spaces for all kinds of different information (data). Each database, other than schema-less ones, have a model, which provide structure for the data being dealt with. Database management systems are applications (or libraries) which manage databases of various shapes, sizes, and sorts.
+Relational Database Management Systems
+Relational Database Systems implement the relational model to work with the data. Relational model shapes whatever information to be stored by defining them as related entities with attributes across tables (i.e. schemas).
+These type of database management systems require structures (e.g. a table) to be defined in order to contain and work with the data. With tables, each column (e.g. attribute) holds a different type (e.g. data type) of information. Each record in the database, uniquely identified with keys, translates to a row that belongs to a table, with each row’s series of attributes being represented as the columns of a table — all related together, as defined within the relational model.
+Relations And Data Types
+Relations can be considered as mathematical sets that contain series of attributes which collectively represent the database and information being kept. This type of identification and collection method allow relational databases to work the way they do.
+When defining a table to insert records, each element forming a record (i.e. attribute) must match the defined data type (e.g. an integer, a date etc.). Different relational database management systems implement different data types — which are not always directly interchangeable.
+Working with and through constraints, like the one we have just explained, is common with relational databases. In fact, constraints form the core of the relations.
+Popular And Important Relational Databases
+In this article, we are going to introduce three major and important open-source relational database management systems that have helped to shape the world of application development.
+SQLite:
+A very powerful, embedded relational database management system.
+MySQL:
+The most popular and commonly used RDBMS.
+PostgreSQL:
+The most advanced, SQL-compliant and open-source objective-RDBMS.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 12 Jan 2018 00:00:00 +0700</pubDate>
+        <link>/blog/mysql/postgresql/2018/01/12/mysql-postgress.html</link>
+        <guid isPermaLink="true">/blog/mysql/postgresql/2018/01/12/mysql-postgress.html</guid>
+        
+        
+        <category>Blog</category>
+        
+        <category>MySQL</category>
+        
+        <category>PostgreSQL</category>
+        
+      </item>
+    
+  </channel>
+</rss>

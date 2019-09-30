@@ -1,0 +1,13 @@
+.sidebar-section a.recommended-tech { display: block; padding: 10px 0; }
+
+.our-service-dropdown { width: 540px; }
+
+.our-service-dropdown .title { margin-left: 1.5rem; padding-top: 1rem; padding-bottom: 0.5rem; text-transform: uppercase; display: inline-block; border-bottom: 3px solid #6FD350; }
+
+.footer-technologies .badge { font-size: 100%; font-weight: 500; margin-right: 5px; margin-bottom: 8px; }
+
+.company-info { border-top: 1px dashed #5cb85c; border-bottom: 1px dashed #5cb85c; }
+
+.copyright p { margin-bottom: 0; }
+
+/*# sourceMappingURL=custom.css.map */

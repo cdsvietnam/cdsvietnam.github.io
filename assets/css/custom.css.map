@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"custom.scss"
+	],
+	"sourcesContent": [
+		"// Import partials from `sass_dir` (defaults to `_sass`)\n\n.sidebar-section {\n  a.recommended-tech {\n\tdisplay: block;\n\tpadding: 10px 0;\n  }\n}\n\n.our-service-dropdown {\n  width: 540px;\n\n  .title {\n\tmargin-left: 1.5rem;\n\tpadding-top: 1rem;\n\tpadding-bottom: 0.5rem;\n\ttext-transform: uppercase;\n\tdisplay: inline-block;\n\tborder-bottom: 3px solid #6FD350;\n  }\n}\n\n.footer-technologies {\n  .badge {\n\tfont-size: 100%;\n\tfont-weight: 500;\n\tmargin-right: 5px;\n\tmargin-bottom: 8px;\n  }\n}\n\n.company-info {\n  border-top: 1px dashed #5cb85c;\n  border-bottom: 1px dashed #5cb85c;\n}\n\n.copyright {\n  p {\n\tmargin-bottom: 0;\n  }\n}"
+	],
+	"names": [],
+	"mappings": "AAEA,AACE,gBADc,CACd,CAAC,AAAA,iBAAiB,CAAC,EACpB,OAAO,EAAE,KAAK,EACd,OAAO,EAAE,MAAM,GACb;;AAGH,AAAA,qBAAqB,CAAC,EACpB,KAAK,EAAE,KAAK,GAUb;;AAXD,AAGE,qBAHmB,CAGnB,MAAM,CAAC,EACR,WAAW,EAAE,MAAM,EACnB,WAAW,EAAE,IAAI,EACjB,cAAc,EAAE,MAAM,EACtB,cAAc,EAAE,SAAS,EACzB,OAAO,EAAE,YAAY,EACrB,aAAa,EAAE,iBAAiB,GAC9B;;AAGH,AACE,oBADkB,CAClB,MAAM,CAAC,EACR,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,GAAG,EAChB,YAAY,EAAE,GAAG,EACjB,aAAa,EAAE,GAAG,GAChB;;AAGH,AAAA,aAAa,CAAC,EACZ,UAAU,EAAE,kBAAkB,EAC9B,aAAa,EAAE,kBAAkB,GAClC;;AAED,AACE,UADQ,CACR,CAAC,CAAC,EACH,aAAa,EAAE,CAAC,GACd"
+}
